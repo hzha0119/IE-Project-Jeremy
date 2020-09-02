@@ -1,0 +1,65 @@
+p, h1, h2, h3, h4{
+    margin-left: 5%;
+    word-wrap: break-word;
+}
+
+span{
+    float: right;
+    border: 0.1px solid rgba(0, 0, 0, 0.308);
+    margin-right: 6%;
+    background-color: rgba(0, 128, 0, 0.411);
+    box-shadow: 0.5px 0.5px #1111ad;
+    padding: 1px;
+    border-radius: 2px;
+}
+
+#quiz-container p {
+    font-size: larger;
+}
+
+button{
+    box-shadow: 3px 1px #4c4343;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+#selection button{
+    background-color: rgba(206, 220, 221, 0.966);
+    border: 1px solid black;
+    color: black; /* White text */
+    padding: 15px 30px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 80%; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+    margin-left: 5%;
+}
+
+#selection button:hover{
+    background-color: rgba(0, 0, 0, 0.26);
+}
+
+.previous-next{
+    border: 1px solid black;
+    margin-top: 50px;
+    padding: 10px 30px;
+}
+
+.previous-next:hover{
+    background-color: rgba(0, 0, 0, 0.466);
+}
+
+#selection .active {
+    background-color: green;
+    transition: all 0.3s;
+}
+
+
+#prev-btn{
+    margin-left: 5%;
+}
+
+
+#next-btn {
+    float: right;
+    margin-right: 15%;
+}

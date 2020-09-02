@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>TA19 - IE Project </title>
+        <link rel="stylesheet" href="layout.css" type="text/css"/>
+        <link rel="stylesheet" href="800px.css" type="text/css" media="screen and (max-width: 800px)" />
+        <link rel="stylesheet" href="Menu.css" type="text/css"/>
+        <link rel="stylesheet" href="Header.css" type="text/css"/>
+        <link rel="stylesheet" href="SideBar.css" type="text/css"/>
+        <link rel="stylesheet" href="Footer.css" type="text/css"/>
+        <link rel="stylesheet" href="MainBody.css" type="text/css"/>
+    </head>
+    <body>
+        <div id="Container"></div>
+        <div id="Header">
+            <div class="logo-pic">
+                <img src="Team_Logo.jpeg" alt="logo" />
+            </div>
+            <h1> PROBIOHEALTH </h1>
+            <h2> Best Analyse on HPV & Anal Cancer Information </h2>
+        </div>
+        <div id="Menu">
+            <nav>
+                <ul>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Home</a></li>                    
+                </ul>
+            </nav>
+        </div>
+        <div id="SideBar">
+            <div class="toggle-btn" onclick="toggleSidebar()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Data</a></li>
+                <li><a href="#">Quiz</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </div>
+
+        <div id="MainBody">
+            <div>
+                <img src="breast-cancer.jpg" alt="logo">
+            </div>
+            <div class='body-content'>
+                <h2>Do You Have Breast Risk?</h2>
+                <p>
+                    According to Australian Government Statistics,
+                    There are <b>30,000</b> people (mostly in females) who are diagnosed with breast cancer,
+                    and around <b>3,000</b> people died due to the breast cancer in each year. 
+                    <br> <br> Our application is to predict if you have the risk of breast cancer.
+                    You can attempt many times freely, and enjoy the quiz! :)
+                </p>
+                <button>
+                    <a href="Quiz App/index.html">Attempt Quiz Now</a>
+                </button>
+            </div>
+        </div>
+
+        <div id="Footer">
+            <div class="foot-content">
+                <div class="footer-section about">
+                    <h3 class="logo-text">Breast Cancer Questionaire</h3>
+                    <p>
+                        This is ProBioHealthy page. Our topic is Immunisation.
+                        It focus on promoting the awareness of Breast Cancer thereby providing immunisation tips through questionnaire.
+                    </p>
+                </div>
+                <div class="footer-section links">
+                    <h3>Quick Links</h3>
+                    <br>
+                    <ul>
+                        <a href="#"><li>Team</li></a>
+                        <a href="#"><li>Lean Cnavas</li></a>
+                        <a href="#"><li>Data Source</li></a>
+                        <a href="#"><li>Mahara</li></a>
+                    </ul>
+                </div>
+                <div class="footer-section contact-form">
+                    <h3>Contact us</h3>
+                    <br>
+                    <form action='index.html' method="post">
+                        <input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
+                        <textarea name="message"  class="text-input contact-input" placeholder="Your message..."></textarea>
+                        <br>
+                        <button type="submit" class="btn btn-big">
+                            Send
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="foot-bottom">
+                <p>
+                &copy; ProBioHealth.com | Designd by TA19
+                </p>
+            </div>
+        </div>
+        <script src="SideBar.js"></script>
+    </body>
+</html>
