@@ -1,104 +1,154 @@
 [
 
         {
+        "question": "What’s your Age-group of person?",
+        "choices": [
+            {
+                "choice": "25 - 35",
+                "value": 5
+            },
+            {
+                "choice": "35 - 45",
+                "value": 8
+            },
+            {
+                "choice": "45 - 55",
+                "value": 7
+            },
+            {
+                "choice": "Over 55 Years",
+                "value": 7
+            },
+            {
+                "choice": "Not prefer to answer",
+                "value": 10
+            } 
+        ]
+    },
+    {
         "question": "What's the frequency of your sex action in a week?",
         "choices": [
             {
-                "choice": "Less than 1 times",
-                "value": 1
+                "choice": "< 1 time",
+                "value": 5
             },
             {
                 "choice": "2 - 4 times",
-                "value": 2
+                "value": 6
             },
             {
                 "choice": "4 - 6 times",
-                "value": 3
+                "value": 7
             },
             {
                 "choice": "Everyday",
-                "value": 4
-            }   
-        ]
-    },
-    {
-        "question": "When did you attend GP last time?",
-        "choices": [
-            {
-                "choice": "Within one week",
-                "value": 1
+                "value": 8
             },
             {
-                "choice": "Last three months",
-                "value": 2
-            },
-            {
-                "choice": "Last half year",
-                "value": 3
-            }
+                "choice": "Not prefer to answer",
+                "value": 10
+            } 
         ]
     },
         {
-        "question": "What's your age group?",
+        "question": "Do anyone of your family member has HPV?",
         "choices": [
             {
-                "choice": "< 10 years old",
+                "choice": "Yes",
+                "value": 10
+            },
+            {
+                "choice": "No",
                 "value": 1
             },
             {
-                "choice": "10 - 22 years old",
-                "value": 2
-            },
-            {
-                "choice": "22 - 40 years old",
-                "value": 3
-            },
-            {
-                "choice": "Over 40 years old",
-                "value": 4
-            }   
+                "choice": "Not prefer to answer",
+                "value": 10
+            } 
         ]
     },
         {
         "question": "When did you attend GP last time?",
         "choices": [
             {
-                "choice": "Do you have health concern?",
-                "value": 1
+                "choice": "Less than a week",
+                "value": 4
             },
             {
-                "choice": "bleeding disorde",
-                "value": 2
+                "choice": "Before three Months",
+                "value": 6
+            },
+            {
+                "choice": "Last six Months",
+                "value": 7
+            },
+            {
+                "choice": "More than a Year",
+                "value": 8
+            },
+            {
+                "choice": "Not prefer to answer",
+                "value": 10
+            } 
+        ]
+    },
+    {
+        "question": "Do you have any sort of health concern?",
+        "choices": [
+            {
+                "choice": "Allergies",
+                "value": 7
+            },
+            {
+                "choice": "bleeding",
+                "value": 8
             },
             {
                 "choice": "Others",
-                "value": 3
+                "value": 6
             },
             {
                 "choice": "Not at all",
-                "value": 4
+                "value": 3
             }   
         ]
     },
     {
-        "question": "When did you attend GP last time?",
+        "question": "How frequently you consume alcohol?",
         "choices": [
             {
-                "choice": "Do you have health concern?",
-                "value": 1
+                "choice": "Daily",
+                "value": 8
             },
             {
-                "choice": "bleeding disorde",
-                "value": 2
+                "choice": "Weekly",
+                "value": 6
             },
             {
-                "choice": "Others",
-                "value": 3
+                "choice": "Once in a month",
+                "value": 4
             },
             {
                 "choice": "Not at all",
-                "value": 4
+                "value": 1
             }   
+        ]
+    },
+    {
+        "question": "Do you participate in exercise regularly?",
+        "choices": [
+            {
+                "choice": "Yes",
+                "value": 3
+            },
+            {
+                "choice": "No",
+                "value": 6
+            },
+            {
+                "choice": "Not at all",
+                "value": 10
+            }  
         ]
     }
 ]

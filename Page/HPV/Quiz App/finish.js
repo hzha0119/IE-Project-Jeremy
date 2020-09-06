@@ -8,15 +8,21 @@ const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
 const MAX_HIGH_SCORES = 100;
 
 var category;
-if (mostRecentScore < 9) {
+if (mostRecentScore < 40) {
     category = "Low";
-} else if (mostRecentScore >= 9 && mostRecentScore < 13) {
+    finalScore.innerText = category;
+    finalScore.style.color = "green";
+} else if (mostRecentScore >= 40 && mostRecentScore < 50) {
     category = "Medium";
+    finalScore.innerText = category;
+    finalScore.style.color = "orange";
 } else {
     category = "High";
+    finalScore.innerText = category;
+    finalScore.style.color = "red";
 }
 
-finalScore.innerText = category;
+
 
 username.addEventListener("keyup", () => {
     saveScoreBtn.disabled = !((username.value >= 1000) && (username.value<10000) && (username.value%1 === 0));

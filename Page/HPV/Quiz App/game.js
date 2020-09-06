@@ -80,7 +80,7 @@ generate_questions = (questionCounter, MAX_QUESTIONS) => {
         thisChoice = choices["choices"][choiceIndex];
         var choiceList = `<div class="choice-container">` +
         `<p class="choice-prefix">${alpheList[choiceIndex]}</p>` +
-        `<p class="choice-text" data-number="${choiceIndex - 0 + 1}">${thisChoice["choice"]}</p>` +
+        `<p class="choice-text" data-number="${thisChoice["value"] - 0}">${thisChoice["choice"]}</p>` +
         `</div>`;
         choiceText.push(choiceList);
         //console.log(choiceList);
