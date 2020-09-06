@@ -1,0 +1,104 @@
+[
+
+        {
+        "question": "What's the frequency of your sex action in a week?",
+        "choices": [
+            {
+                "choice": "Less than 1 times",
+                "value": 1
+            },
+            {
+                "choice": "2 - 4 times",
+                "value": 2
+            },
+            {
+                "choice": "4 - 6 times",
+                "value": 3
+            },
+            {
+                "choice": "Everyday",
+                "value": 4
+            }   
+        ]
+    },
+    {
+        "question": "When did you attend GP last time?",
+        "choices": [
+            {
+                "choice": "Within one week",
+                "value": 1
+            },
+            {
+                "choice": "Last three months",
+                "value": 2
+            },
+            {
+                "choice": "Last half year",
+                "value": 3
+            }
+        ]
+    },
+        {
+        "question": "What's your age group?",
+        "choices": [
+            {
+                "choice": "< 10 years old",
+                "value": 1
+            },
+            {
+                "choice": "10 - 22 years old",
+                "value": 2
+            },
+            {
+                "choice": "22 - 40 years old",
+                "value": 3
+            },
+            {
+                "choice": "Over 40 years old",
+                "value": 4
+            }   
+        ]
+    },
+        {
+        "question": "When did you attend GP last time?",
+        "choices": [
+            {
+                "choice": "Do you have health concern?",
+                "value": 1
+            },
+            {
+                "choice": "bleeding disorde",
+                "value": 2
+            },
+            {
+                "choice": "Others",
+                "value": 3
+            },
+            {
+                "choice": "Not at all",
+                "value": 4
+            }   
+        ]
+    },
+    {
+        "question": "When did you attend GP last time?",
+        "choices": [
+            {
+                "choice": "Do you have health concern?",
+                "value": 1
+            },
+            {
+                "choice": "bleeding disorde",
+                "value": 2
+            },
+            {
+                "choice": "Others",
+                "value": 3
+            },
+            {
+                "choice": "Not at all",
+                "value": 4
+            }   
+        ]
+    }
+]
