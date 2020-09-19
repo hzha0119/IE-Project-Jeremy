@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#SideBar {
+    position: fixed;
+    background: #151719;
+    left: -200px;
+    transition: all 500ms linear;
+}
+
+#SideBar.active {
+    left: 5px;
+}
+
+
+#SideBar ul li {
+    list-style: none;
+    padding: 15px 60px;
+    border-bottom: 1px solid rgba(100, 100, 100, 0.3);
+}
+
+#SideBar ul li a {
+    color: rgba(230, 230, 230, 0.9);
+    text-decoration: none;
+}
+
+#SideBar ul li a:hover {
+    color: rgba(230, 230, 230, 0.9);
+    text-decoration: underline;
+}
+
+#SideBar .toggle-btn {
+    position: absolute;
+    left: 230px;
+    top: 20px;
+}
+
+#SideBar .toggle-btn span {
+    display: block;
+    width: 30px;
+    height: 5px;
+    background-color: #151719;
+    margin: 3px 0px;
+}

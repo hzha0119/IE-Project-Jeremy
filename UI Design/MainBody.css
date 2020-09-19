@@ -1,0 +1,47 @@
+#MainBody img {
+    width: 340px;
+    height: 360px;
+    float: left;
+    margin-left: 20px;
+    margin-block-start: 40px;
+}
+
+#MainBody .body-content h2 {
+    width: 500px;
+    color: black;
+    display: block;
+    font-style: normal;
+    line-height: 120px;
+    height: 40px;
+    margin-left: 450px;
+}
+
+#MainBody .body-content p {
+    font-size: 20px;
+    display: block;
+    line-height: 25px;
+    padding-block-start: 60px;
+    margin-left: 400px;
+    margin-right: 20px;
+}
+
+#MainBody .body-content button {
+    background: red;
+    align-content: center;
+    width: 200px;
+    height: 40px;
+    display: block;
+    margin-block-start: 25px;
+    margin-left: 500px;
+}
+
+#MainBody .body-content button a {
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#MainBody .body-content button a:hover {
+    background: yellowgreen;
+}

@@ -1,0 +1,86 @@
+[
+    {
+        "question": "When did you attend GP last time?",
+        "choices": [
+            {
+                "choice1": "Within one week",
+                "value": 1
+            },
+            {
+                "choice2": "Last three months",
+                "value": 2
+            },
+            {
+                "choice3": "Last half year",
+                "value": 3
+            },
+            {
+                "choice4": "More than half year",
+                "value": 4
+            }   
+        ]
+    },
+        {
+        "question": "What's the frequency of your sex action in a week?",
+        "choices": [
+            {
+                "choice1": "Less than 1 times",
+                "value": 1
+            },
+            {
+                "choice2": "2 - 4 times",
+                "value": 2
+            },
+            {
+                "choice3": "4 - 6 times",
+                "value": 3
+            },
+            {
+                "choice4": "Everyday",
+                "value": 4
+            }   
+        ]
+    },
+        {
+        "question": "What's your age group?",
+        "choices": [
+            {
+                "choice1": "< 10 years old",
+                "value": 1
+            },
+            {
+                "choice2": "10 - 22 years old",
+                "value": 2
+            },
+            {
+                "choice3": "22 - 40 years old",
+                "value": 3
+            },
+            {
+                "choice4": "Over 40 years old",
+                "value": 4
+            }   
+        ]
+    },
+        {
+        "question": "When did you attend GP last time?",
+        "choices": [
+            {
+                "choice1": "Do you have health concern?",
+                "value": 1
+            },
+            {
+                "choice2": "bleeding disorde",
+                "value": 2
+            },
+            {
+                "choice3": "Others",
+                "value": 3
+            },
+            {
+                "choice4": "Not at all",
+                "value": 4
+            }   
+        ]
+    }
+]

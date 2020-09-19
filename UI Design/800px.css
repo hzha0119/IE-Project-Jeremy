@@ -1,0 +1,22 @@
+#SideBar {
+    width: 100%;
+}
+#MainBody {
+    width: 100%;
+}
+
+#Menu {
+    height: 240px;
+}
+
+#SideBar {
+    display: none;
+}
+
+#Footer {
+    display: none;
+}
+
+img {
+    display: none;
+}
