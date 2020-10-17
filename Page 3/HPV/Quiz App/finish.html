@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congrats!</title>
+    <link rel="stylesheet" href="app.css" />
+</head>
+<body>
+    <div class="container">
+        <div id="finish" class="flex-center flex-column" style="margin-top: 10%;">
+            <h1>The risk of HPV on your body is:</h1>
+            <h1 id="finalScore"></h1>
+            <form>
+                <p style="font-size: 2rem;padding-block-end: 2rem;">Please enter your <strong> postcode </strong> if you want to save your result:</p>
+                <input type="text" name="username" id="username" placeholder="Postcode" />
+                <button type="submit" class="btn" id="saveScoreBtn" onclick="saveHighScore(event)" disabled>Save</button>
+            </form>
+            <a href="game.html" class="btn">Play Again</a>
+            <a href="index.html" class="btn">Exit</a>
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase.js"></script>
+    <script src='finish.js'></script>
+</body>
+</html>
