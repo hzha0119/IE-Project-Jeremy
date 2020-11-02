@@ -1,0 +1,253 @@
+{
+    "status": "ok",
+    "totalResults": 206,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "New York Times"
+            },
+            "author": "Kwame Anthony Appiah",
+            "title": "I Got a Trial Covid-19 Vaccine. Do I Still Have to Wear a Mask?",
+            "description": "The magazine’s Ethicist columnist on whether participating in a vaccine trial means you can act as if you’re part of an “immune elite” — and more.",
+            "url": "https://www.nytimes.com/2020/09/15/magazine/i-got-a-trial-covid-19-vaccine-do-i-still-have-to-wear-a-mask.html",
+            "urlToImage": "https://static01.nyt.com/images/2020/09/20/magazine/20Ethicist/20Ethicist-facebookJumbo.jpg",
+            "publishedAt": "2020-09-15T09:00:18Z",
+            "content": "Lets review a few more factual considerations. Specific antibodies target specific segments (epitopes) of a protein. The major American vaccine candidates, which focus on the coronaviruss spike prote… [+3356 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Science Magazine"
+            },
+            "author": "Macejak, D.",
+            "title": "Delivering a difference",
+            "description": "“What would you do if you were not in science?” the principal investigator asked me during a postdoc interview in Denver many years ago. I hadn't really thought about it before. Construction? I had spent some summers in college as a frame carpenter and gotten…",
+            "url": "https://science.sciencemag.org/content/369/6510/1534.full",
+            "urlToImage": "https://science.sciencemag.org/content/369/6510/F1.medium.gif",
+            "publishedAt": "2020-09-17T17:40:15Z",
+            "content": "What would you do if you were not in science? the principal investigator asked me during a postdoc interview in Denver many years ago. I hadn't really thought about it before. Construction? I had spe… [+3860 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "nejm.org"
+            },
+            "author": "Jiayao Lei, Alexander Ploner, K. Miriam Elfström, Jiangrong Wang, Adam Roth, Fang Fang, Karin Sundström, Joakim Dillner, Pär Sparén",
+            "title": "HPV Vaccination and the Risk of Invasive Cervical Cancer",
+            "description": "Original Article from The New England Journal of Medicine — HPV Vaccination and the Risk of Invasive Cervical Cancer",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1917338",
+            "urlToImage": "https://www.nejm.org/na101/home/literatum/publisher/mms/journals/content/nejm/2020/nejm_2020.383.issue-14/nejmoa1917338/20200925-01/images/img_small/nejmoa1917338_f1.jpeg",
+            "publishedAt": "2020-09-30T08:55:18Z",
+            "content": "Background\r\nThe efficacy and effectiveness of the quadrivalent human papillomavirus (HPV) vaccine in preventing high-grade cervical lesions have been shown. However, data to inform the relationship b… [+1836 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "Jiayin Xue and Robert M. Kaplan",
+            "title": "Op-Ed: A COVID-19 vaccine is one thing. Getting Americans to take it is another",
+            "description": "If getting Americans to wear a mask is hard, vaccine skepticism could mean getting them to take a COVID-19 vaccine will be even harder.",
+            "url": "https://news.yahoo.com/op-ed-covid-19-vaccine-100053843.html",
+            "urlToImage": "https://s.yimg.com/uu/api/res/1.2/lIeesmbzOEvIH3SOB9d75Q--~B/aD01NjA7dz04NDA7c209MTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/la_times_articles_853/c5b73c7721e24f6c825d0f0f4a50cdd7",
+            "publishedAt": "2020-09-21T10:00:53Z",
+            "content": "A nurse prepares a dose of an experimental coronavirus vaccine developed by the National Institutes of Health and Moderna Inc. (Hans Pennink / Associated Press)\r\nWith multiple vaccine candidates in t… [+4972 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Forbes"
+            },
+            "author": "Nina Shapiro, Contributor, Nina Shapiro, Contributorhttps://www.forbes.com/sites/ninashapiro/",
+            "title": "Eddie Valen Halen Has Died From Throat Cancer",
+            "description": "Eddie Van Halen, founder of the eponymous group Van Halen, has died due to mestastatic throat cancer at the age of 65.",
+            "url": "https://www.forbes.com/sites/ninashapiro/2020/10/06/eddie-valen-halen-has-died-from-throat-cancer/",
+            "urlToImage": "https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f7cd15d014cdcf6c10ca1d9%2F0x0.jpg",
+            "publishedAt": "2020-10-06T21:00:04Z",
+            "content": "Eddie Van Halen of Van Halen performs at Shoreline Amphitheatre on August 20, 1993 \r\nGetty Images\r\nEddie Van Halen, founder of the eponymous group Van Halen, has died due to mestastatic throat cancer… [+2917 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Forbes"
+            },
+            "author": "Leah Campbell, Contributor, Leah Campbell, Contributorhttps://www.forbes.com/sites/leahcampbell/",
+            "title": "You’re Wrong About The HPV Vaccine (and There’s Data to Prove It)",
+            "description": "The refusal rate for the HPV vaccination is as high as 27 percent in some areas, but many of the fears behind parents' hesitation are based on myths that are easily refuted.",
+            "url": "https://www.forbes.com/sites/leahcampbell/2020/09/29/youre-wrong-about-the-hpv-vaccine-and-theres-data-to-prove-it/",
+            "urlToImage": "https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f72c8b45e73b0d272144241%2F0x0.jpg%3FcropX1%3D0%26cropX2%3D5000%26cropY1%3D0%26cropY2%3D3333",
+            "publishedAt": "2020-09-29T05:47:42Z",
+            "content": "Close up of a girl having an injection\r\ngetty\r\nThe American Cancer Society is sounding the alarm when it comes to the HPV vaccine (Gardasil 9). Covid-19 has resulted in a 71 percent drop in healthcar… [+6301 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Salon"
+            },
+            "author": "Jillian Kramer",
+            "title": "With COVID-19, vaccine messaging faces an unprecedented test",
+            "description": "A Covid-19 vaccine is coming. Will public health messaging be enough to convince Americans to get it?",
+            "url": "https://www.salon.com/2020/09/27/with-covid-19-vaccine-messaging-faces-an-unprecedented-test_partner/",
+            "urlToImage": "https://media.salon.com/2019/06/vaccine-needle.jpg",
+            "publishedAt": "2020-09-27T10:59:02Z",
+            "content": "The Centers for Disease Control and Prevention had a problem: A new vaccine could save lives and end a viral epidemic that had infected millions of Americans. The immunization was safe, effective, an… [+17967 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Niemanlab.org"
+            },
+            "author": "Jillian Kramer",
+            "title": "“‘Warp speed’ was an unfortunate term”: With Covid-19, vaccine messaging faces an unprecedented test",
+            "description": "The Centers for Disease Control and Prevention had a problem: A new vaccine could save lives and end a viral epidemic that had infected millions of Americans. The immunization was safe, effective, and widely available. Most insurance companies planned to cove…",
+            "url": "https://www.niemanlab.org/2020/09/warp-speed-was-an-unfortunate-term-with-covid-19-vaccine-messaging-faces-an-unprecedented-test/",
+            "urlToImage": "https://www.niemanlab.org/images/vaccine-cc-700x410.jpg",
+            "publishedAt": "2020-09-25T12:30:33Z",
+            "content": "The Centers for Disease Control and Prevention had a problem: A new vaccine could save lives and end a viral epidemic that had infected millions of Americans. The immunization was safe, effective, an… [+17605 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Motley Fool"
+            },
+            "author": "newsfeedback@fool.com (George Budwell)",
+            "title": "Why Inovio Pharmaceuticals Is Losing Steam Today",
+            "description": "A noted Inovio bear weighs in on the stock's strong showing this week.",
+            "url": "https://www.fool.com/investing/2020/09/17/why-inovio-pharmaceuticals-is-losing-steam-today/",
+            "urlToImage": "https://g.foolcdn.com/editorial/images/592035/red-arrow2.jpg",
+            "publishedAt": "2020-09-17T14:36:00Z",
+            "content": "What happened\r\nShares of the developmental vaccine and immunotherapy company Inovio Pharmaceuticals(NASDAQ:INO) fell by as much as 15.8% right out of the gate Thursday morning. This double-digit decl… [+1869 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "PR Newswire",
+            "title": "BD Submits Pre-Market Approval Supplement to FDA to Enable ThinPrep® Pap Test™ PreservCyt® Solution to be Used with the BD Onclarity™ HPV Assay",
+            "description": "BD (Becton, Dickinson and Company) (NYSE: BDX), a leading global medical technology company, today announced that it has submitted a pre-market approval (PMA) supplement to the U.S. Food and Drug Administration (FDA) for the use of the ThinPrep® Pap Test™ Pre…",
+            "url": "https://news.yahoo.com/bd-submits-pre-market-approval-105900940.html",
+            "urlToImage": "https://s.yimg.com/uu/api/res/1.2/hPs23x4CQeIHWvryk4Qy2Q--~B/aD0zMDA7dz00MDA7c209MTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/prnewswire.com/9d31b3f3ca7991322114f08d86de64c2",
+            "publishedAt": "2020-09-23T10:59:00Z",
+            "content": "FRANKLIN LAKES, N.J., Sept. 23, 2020 /PRNewswire/ -- BD (Becton, Dickinson and Company) (NYSE: BDX), a leading global medical technology company, today announced that it has submitted a pre-market ap… [+4052 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Study Finds"
+            },
+            "author": null,
+            "title": "Breakthrough Cancer Breath Test Shows High Level Of Accuracy...",
+            "description": "The new breath test is helping to detect certain forms of cancer without the need for invasive medical exams.",
+            "url": "https://www.studyfinds.org/cancer-breath-test-accuracy/",
+            "urlToImage": "https://www.studyfinds.org/wp-content/uploads/2020/10/AdobeStock_302583999-scaled.jpeg",
+            "publishedAt": "2020-10-05T21:04:39Z",
+            "content": "ADELAIDE, Australia — From drunk driving to experimental screenings for COVID-19, a breath test can provide a lot of information in a short amount of time. Researchers in Australia say your breath ma… [+2396 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Motley Fool"
+            },
+            "author": "newsfeedback@fool.com (Keith Speights)",
+            "title": "3 Critical Catalysts on the Way for Inovio",
+            "description": "With three important milestones just ahead, the biotech stock will likely soar or sink in the near future.",
+            "url": "https://www.fool.com/investing/2020/09/22/3-critical-catalysts-on-the-way-for-inovio/",
+            "urlToImage": "https://g.foolcdn.com/editorial/images/592301/wood-blocks-forming-rocketship.jpg",
+            "publishedAt": "2020-09-22T10:04:00Z",
+            "content": "Inovio Pharmaceuticals(NASDAQ:INO) tends to stir up strong feelings among investors. Bulls would be quick to point out that the stock is up over 430% so far this year, an impressive gain by any stand… [+3664 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Retractionwatch.com"
+            },
+            "author": "Adam Marcus",
+            "title": "“A wholly frustrating and embarrassing process”: Authors retract paper on HPV vaccine and preterm birth",
+            "description": "The authors of a 2018 paper purporting to find that the HPV vaccine guards against preterm birth have retracted the article after discovering they made a statistical error which could have masked the opposite effect.  The researchers, from New Zealand, also f…",
+            "url": "https://retractionwatch.com/2020/09/23/a-wholly-frustrating-and-embarrassing-process-authors-retract-paper-on-hpv-vaccine-and-preterm-birth/",
+            "urlToImage": "https://retractionwatch.com/wp-content/uploads/2020/09/Gardasil_vaccine_and_box.jpg",
+            "publishedAt": "2020-09-23T10:00:00Z",
+            "content": "via Wikimedia\r\nThe authors of a 2018 paper purporting to find that the HPV vaccine guards against preterm birth have retracted the article after discovering they made a statistical error which could … [+4033 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "PR Newswire",
+            "title": "Baum Hedlund Files Gardasil Lawsuit Against Merck on Behalf of Man",
+            "description": "Baum Hedlund Aristei & Goldman filed a Gardasil vaccine injury lawsuit today against manufacturer Merck on behalf of a young man who sustained life-altering injuries he alleges were caused by the HPV vaccine.",
+            "url": "https://news.yahoo.com/baum-hedlund-files-gardasil-lawsuit-235600924.html",
+            "urlToImage": "https://s.yimg.com/uu/api/res/1.2/frb_BsXiUk2OjmJoSvU9qw--~B/aD00MDA7dz0yODA7c209MTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/prnewswire.com/71755bb3e2b761f6fdac810013158fb0",
+            "publishedAt": "2020-09-16T23:56:00Z",
+            "content": "It isn't just girls experiencing serious injuries after receiving the Gardasil vaccine\r\nORANGE COUNTY, Calif., Sept. 16, 2020 /PRNewswire/ -- Baum Hedlund Aristei &amp; Goldman filed a Gardasil vacci… [+9987 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "EurekAlert"
+            },
+            "author": null,
+            "title": "Impact of HPV vaccination mandates on social inequalities",
+            "description": "A postdoctoral researcher at the University of California, Riverside, has discovered Human papillomavirus, or HPV, vaccination mandates fall short of ensuring both higher levels of uptake and equal uptake of the vaccine across socioeconomic and racial-ethnic …",
+            "url": "https://www.eurekalert.org/pub_releases/2020-10/uoc--ioh100520.php",
+            "urlToImage": "https://www.eurekalert.org/multimedia/pub/web/244999_web.jpg",
+            "publishedAt": "2020-10-05T04:00:00Z",
+            "content": "IMAGE: Andrea Polonijo is a Chancellor's Postdoctoral Fellow at UC Riverside.\r\n view more \r\nCredit: UC Riverside.\r\nRIVERSIDE, Calif. -- A postdoctoral researcher at the University of California, Rive… [+4798 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "PR Newswire",
+            "title": "Cervical Cancer Market is Expected to Increase With a CAGR of 16.9% for the Study Period of 2017-2030 in 7MM: DelveInsight",
+            "description": "The coming decade is expected to witness a rise in targeted therapies in the pipeline and a better drug delivery approach that shall give the cervical cancer market a boost. An increase in cervical cancer incidence is also a major reason behind the accelerate…",
+            "url": "https://news.yahoo.com/cervical-cancer-market-expected-increase-143000827.html",
+            "urlToImage": "https://s.yimg.com/uu/api/res/1.2/WCcl4aI5cC4aFCdgwt8M4g--~B/aD0xODE7dz00MDA7c209MTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/prnewswire.com/c8b3bd7dd7169bf666a830cddff28951",
+            "publishedAt": "2020-09-17T14:30:00Z",
+            "content": "LAS VEGAS, Sept. 17, 2020 /PRNewswire/ --  The coming decade is expected to witness a rise in targeted therapies in the pipeline and a better drug delivery approach that shall give the cervical cance… [+11279 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Nature.com"
+            },
+            "author": "Javier Fernández-Mateos, Jéssica Pérez-García, Raquel Seijas-Tamayo, Ricard Mesía, Jordi Rubió-Casadevall, Carlos García-Girón, Lara Iglesias, Alberto Carral Maseda, Juan Carlos Adansa Klain, Miren Taberna, Silvia Vazquez, María Asunción Gómez, Edel del Barco, Alberto Ocana, Rogelio González-Sarmiento, Juan Jesús Cruz-Hernández",
+            "title": "Oncogenic driver mutations predict outcome in a cohort of head and neck squamous cell carcinoma (HNSCC) patients within a clinical trial",
+            "description": "234 diagnostic formalin-fixed paraffin-embedded (FFPE) blocks from homogeneously treated patients with locally advanced head and neck squamous cell carcinoma (HNSCC) within a multicentre phase III clinical trial were characterised. The mutational spectrum was…",
+            "url": "https://www.nature.com/articles/s41598-020-72927-2?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+srep%2Frss%2Fcurrent+%28Scientific+Reports%29",
+            "urlToImage": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41598-020-72927-2/MediaObjects/41598_2020_72927_Fig1_HTML.png",
+            "publishedAt": "2020-10-06T00:00:00Z",
+            "content": "<li></li>\r\n1.Siegel, R. L., Miller, K. D. &amp; Jemal, A. Cancer Statistics, 2019. CA Cancer J. Clin.https://doi.org/10.3322/caac.21551 (2019).\r\nArticle \r\n PubMed \r\nGoogle Scholar \r\n<li></li>\r\n2.Stur… [+12757 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Naturalnews.com"
+            },
+            "author": "Cassie B.",
+            "title": "Young man injured by Gardasil files lawsuit against Merck as cases pile up",
+            "description": "<table>\n <tr>\n <td>\n \n </td>\n <td>\n (Natural News) A lawsuit was filed last week against pharmaceutical firm Merck on behalf of a young man who was injured by their HPV vaccine Gardasil. The suit, which was filed by Baum Hedlund Aristei & Goldman, seeks punit…",
+            "url": "https://www.naturalnews.com/2020-09-22-young-man-injured-by-gardasil-files-lawsuit-against-merck.html",
+            "urlToImage": "https://www.naturalnews.com/wp-content/uploads/sites/91/2020/09/Gardasil.jpg",
+            "publishedAt": "2020-09-22T11:11:07Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "PR Newswire",
+            "title": "Photocure announces new Cevira patent in Europe",
+            "description": "Photocure ASA (OSE:PHO) today announces that the European Patent Office (EPO) has granted patent EP 2983780 covering the commercial Cevira® device in Europe until 2034.",
+            "url": "https://news.yahoo.com/photocure-announces-cevira-patent-europe-054300583.html",
+            "urlToImage": "https://s.yimg.com/uu/api/res/1.2/3rFnGi6B7vkAJyceP7hpTA--~B/aD0xNjt3PTE2O3NtPTE7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/4defd5d74e9665e8306c99fd3989fb80",
+            "publishedAt": "2020-10-05T05:43:00Z",
+            "content": "OSLO, Norway, Oct. 5, 2020 /PRNewswire/ -- Photocure ASA (OSE:PHO) today announces that the European Patent Office (EPO) has granted patent EP 2983780 covering the commercial Cevira® device in Europe… [+2873 chars]"
+        }
+    ]
+}

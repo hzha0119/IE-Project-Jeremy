@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Home Page - ProbioHealthy</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="collapsible.css">
+  <!-- =======================================================
+  * Template Name: Medilab - v2.0.0
+  * Template URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+   <!-- ======= TOP ======= -->
+   <div id="top"></div>
+   <script src="/headerAndFooter/header.js"></script>
+
+   
+  <br><br><br><br>
+  <main id="main">
+    <section id="hpv-spreads" class="hpv-spreads">
+      <div class="container">
+        <div class="row">
+          <!-- Sidebar -->
+          <div class="w3-teal">
+            <div class="w3-sidebar w3-bar-block w3-border-right" id="mySidebar" value="170">
+              <button onclick="w3_close()" class="w3-bar-item w3-large"
+                style="background-color: rgb(135, 207, 235);height:45px;">Close &times;
+              </button>
+              <a href="#heading1" class="w3-bar-item w3-button" onclick="w3_close()">Overview</a>
+              <a href="#heading2" class="w3-bar-item w3-button" onclick="w3_close()">Statistics of HPV vaccine</a>
+              <a href="#heading3" class="w3-bar-item w3-button" onclick="w3_close()">Our Program</a>
+              <a href="#heading4" class="w3-bar-item w3-button" onclick="w3_close()">Reactions after Vaccination</a>
+            </div>
+            <button class="w3-button w3-teal w3-xlarge" id="bttn" onclick="w3_open()">☰</button>
+            <div class="w3-container img-fluid" id="textNav">
+              <span onclick="w3_open()"><b>Navigation</b></span>
+            </div>
+            <link rel="stylesheet" href="nav.css">
+            <link rel="stylesheet" href="w3schools.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="nav.js"></script>
+          </div>
+        </div>
+        <h1 style="word-wrap: break-word;text-align: center;">Why HPV Vaccine is Important</h1>
+        <br><br>
+        <div class="row" id="heading1">
+          <div class="col-md-6 col-sm-6 col-sm-12" style="align-self: center; ">
+            <img src="HPV img/img4.jpg" alt="logo" width="99%">
+          </div>
+          <div class="col-md-6 col-sm-6 col-sm-12"
+            style="text-align: left;padding-left: 15px; padding-right: 13px; align-self:center;">
+            <h4>Overview</h4>
+            <p>
+              Under the National Immunisation Program (NIP) program,
+              Australia government strongly encourage residents to take vaccine and most of vaccines are free of
+              PR/Citizens.
+            </p>
+            <p>
+              Not only for HPV, but also for other viruses,
+              vaccines are one of the most convenient and safest preventive care measures available,
+              like eating healthy foods, exercising, and getting regular check-ups.
+            </p>
+          </div>
+        </div>
+        <div class="row" style="padding-top: 20px;" id="heading2">
+          <div class="col-md-6 col-sm-6 col-sm-12"
+            style="text-align: left;padding: 0px 25px 10px 30px; align-self:center;">
+            <h4>Statistics of HPV vaccine</h4>
+            <p>
+              According to a research issued by <b>Cancer Center</b>,
+              almost two thirds in 5,000 random sample group have been affected with HPV if they refused to take
+              vaccine.
+            </p>
+            <p>
+              Reseachers also approved that people who take vaccine can reduce the risk of HPV infection.
+              Although vaccine cannot be the 100% guaranteed method, data approves that the vaccine can protect viruses
+              effectively.
+            </p>
+            <p style="font-style: italic;">
+              <b>Note</b>: This following graph is HPV Immunisation Performance from Australia Government Data in 2019.
+              <a href="https://data.gov.au/dataset/ds-dga-51920cfd-b1a5-4bc2-86ef-e2449ddb752c/details?q=hpv%202019"
+                target="_blank"> Click Here</a> for more details.
+            </p>
+          </div>
+          <div class="col-md-6 col-sm-6 col-sm-12 echart" id="percentageHPVCover">
+            <div id="percentageHPV"></div>
+          </div>
+          <style>
+            #percentageHPVCover {
+              align-self: center;
+              left: -30px;
+              overflow-x: hidden;
+
+            }
+
+            #percentageHPV {
+              width: 100%;
+              min-width: 550px;
+              height: 400px;
+            }
+
+            #percentageHPV div:first-child {
+              left: 0px;
+              right: -500px
+            }
+
+            @media (max-width: 1200px) and (min-width: 768px) {
+              #percentageHPVCover {
+                overflow-x: scroll;
+              }
+            }
+
+            @media (max-width: 518px) {
+              #percentageHPVCover {
+                overflow-x: scroll;
+              }
+            }
+          </style>
+        </div>
+        <div class="row" id="heading3">
+          <div class="col-md-6 col-sm-6 col-sm-12" style="align-self: center; ">
+            <div style="margin-bottom: 100px;margin-top: 10px;">
+              <iframe id="d3pie" src="d3/realVisulization.html"></iframe>
+              <style>
+                #d3pie {
+                  height: 430px;
+                  width: 100%;
+                  border: 0px solid black;
+                }
+              </style>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 col-sm-12"
+            style="text-align: left;padding:0 15px 100px 13px; align-self:center;">
+            <h4>Our Program</h4>
+            <p>
+              Under the National Immunisation Program (NIP) program, Our team
+              ProbioHealthy have launched a program to pre-diagnose the HPV risk.
+            </p>
+            <p>
+              Program is like a questionnaire format with several multiple questions.
+              We'll evaluate the HPV risks depends on users' answer.
+              <span><a id="video" href="quiz frame.html" target="_blank">Click link</a></span>
+              to take a HPV health quiz.
+            </p>
+            <style>
+              #video {
+                font-size: 18px;
+                font-weight: 900;
+                color: blue;
+              }
+
+              #video:hover {
+                text-decoration: underline;
+              }
+            </style>
+            <p>
+              We'll also keep track on the real data.
+              On the left hand-side, you can see there are certain portion of people
+              who may have high or medium risk of HPV infection.
+            </p>
+          </div>
+        </div>
+        <div class="row" id="heading4">
+          <div class="col-md-6 col-sm-6 col-sm-12"
+            style="align-self: center; padding: 10px 40px 0px 10px; margin-top: -100px;">
+            <h3>Reactions after Vaccination</h3>
+            <p>
+              Vaccines, like any medicine, can have side effects.
+              Common side effects from the HPV shot are mild and go away quickly.
+              The most common side effects include: headache, dizziness, fever, etc.
+            </p>
+            <p>
+              The following bar chart demonstrate the number of adverse reactions from 1,000 people randomly.
+              Don't worry, it's a common reactions that will recover in short time.
+            </p>
+          </div>
+          <div class="col-md-6 col-sm-6 col-sm-12 echart" id="symptomsDataCover">
+            <div id="symptomsData"></div>
+          </div>
+          <style>
+            #symptomsDataCover {
+              text-align: center;
+              margin-top: 0px;
+              overflow-x: hidden;
+            }
+
+            @media (max-width: 1200px) and (min-width: 768px) {
+              #symptomsDataCover {
+                overflow-x: scroll;
+              }
+            }
+
+            @media (max-width: 767px) {
+              #symptomsDataCover {
+                overflow-x: scroll;
+              }
+            }
+
+            #symptomsData {
+              width: 100%;
+              height: 400px;
+              min-width: 600px;
+            }
+
+            #symptomsData div:first-child {
+              left: -50px;
+            }
+          </style>
+        </div>
+        <a href="/quiz frame.html" class="newbutton" style="float: right;">Next to Questionnaire</a>
+      </div>
+    </section>
+  </main><!-- End #main -->
+
+ <!-- ======= BOTTOM ======= -->
+ <div id="bottom"></div>
+ <script src="/headerAndFooter/footer.js"></script>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+  <script src="collapsible.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <script src="/echarts.min.js"></script>
+  <script type="text/javascript" src="/echart1.js"></script>
+  <script type="text/javascript" src="/echart2.js"></script>
+
+  <!-- Password login -->
+  <script language="JavaScript" src="password.js"></script>
+
+</body>
+
+</html>

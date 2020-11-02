@@ -1,0 +1,258 @@
+/*
+* JavaScript Jeremy Tutorial
+* https://www.linkedin.com/learning/learning-the-javascript-language-2/our-friend-the-text-editor
+*/
+
+console.log()
+var ans = window.confirm('Message') // result = true or false
+var ans = window.prompt('Message') // result = input
+typeof ans // return in string words 
+
+-------------------------------------------------------------------------
+/*use camelCase is better*/
+var monster1 = "Grover", monster2 = "Coolie Monster", monster3 = "Animal";
+-------------------------------------------------------------------------
+/*String*/
+var myString = "This is Jeo's \"Favorite\" string"
+var myString = "This is \
+Joe's Favorite \
+string EVER"
+
+myString.length
+myString.toUpperCase()
+-------------------------------------------------------------------------
+/*number*/
+-Infinity
+NaN
+Math.E // 2.718281828459045
+Math.random() // 0 .. 1 
+Math.round(12.7554)
+-------------------------------------------------------------------------
+/*Boolean*/
+true/false
+
+var x = 'la', y = 'sb';
+x === y
+-------------------------------------------------------------------------
+/*Object*/
+{}
+null
+var myObject = {};
+var myObject = {
+'label1': 'value1',
+'label2': 'value2'
+};
+
+var bookOfKnowledge = {
+    "lunch time": "12:30 PM",
+    "the ultimate answer": 42,
+    bestSong: "Lonnies's Lament",
+    earth: "Mostly harmless."
+}
+bookOfKnowledge.bestSong
+bookOfKnowledge["lunch time"]
+bookOfKnowledge.color = "black" // New property
+delete bookOfKnowledge.color; // delete property
+
+var bird = {
+    genus: 'corvus',
+    species: 'corvax',
+    commonName: 'raven',
+    callType: 'squawky',
+    quote: 'Nevermore',
+    maxOffspring: 5,
+    noisy: true,
+    deadly: false
+};
+bird2 = bird1;
+bird3 = JSON.parse(JSON.stringify(bird));
+
+bird.hasOwnProperty('lenth'); // false
+-------------------------------------------------------------------------
+/*Array*/
+[]
+var weekdays = ["Mon", "Tue", "Wed", "Thur", 5, 6, true];
+var arrayOfStuff = [
+    {'name': 'value'},
+    [1,2,3], true, 'string'
+];
+
+arrayOfStuff.length
+weekdays[1] = "Tuesday"
+weekdays[10] = "test"; // ["Mon", "Tuesday", "Wed", "Thur", 5, 6, true, empty × 3, "test"]
+weekdays.push("Coos"); // ["Mon", "Tuesday", "Wed", "Thur", 5, 6, true, empty × 3, "test", "Coos"]
+weekdays.pop("das");   // ["Mon", "Tuesday", "Wed", "Thur", 5, 6, true, empty × 3, "test"]
+delete weekdays[1];    // ["Mon", empty, "Wed", "Thur", 5, 6, true, empty × 3, "test"]
+weekdays.splice(1, 2)  // ["Mon", "Thur", 5, 6, true, empty × 3, "test"]
+
+weekdays.hasOwnProperty('lenth'); // true
+-------------------------------------------------------------------------
+/*Regular Expression*/
+var string1 = 'aa b c d';
+var string2 = 'a b c d e';
+
+var regex = /e/;
+console.log(regex.test(string1)); // false
+console.log(regex.test(string2)); // true
+
+var regex = /C/;
+console.log(regex.test(string1)); // false
+var regex = /C/i;
+console.log(regex.test(string1)); // true
+
+
+var regex = /^c/; 
+console.log(regex.test(string1)); // false
+var regex = /^a/;
+console.log(regex.test(string1)); // true
+
+
+var regex = /d$/; 
+console.log(regex.test(string1)); // true
+console.log(regex.test(string2)); // false
+-------------------------------------------------------------------------
+/*Operator*/
+//=== or !==
+var one = 1, two = 2;
+one === "1" // false
+one == "1" //true
+
+2 + '5' // "25"
+2 - '5' // -3
+'cat' + 'dog' // "catdog"
+
+cnt += 2
+cnt = cnt + 2
+
+cnt = 3
+cnt++ // console display is 3, cnt changes to 4
+++cnt // console display is 4, cnt changes to 4
+-------------------------------------------------------------------------
+// Logical: AND (&&),  OR (||), NOT(!)
+!(true || false)
+-------------------------------------------------------------------------
+/* Conditions */
+var ans = window.confirm('Are you okay?'); // confirm
+if (ans === true) {
+    console.log('You said true');
+} else {
+    console.log('you said false');
+}
+
+var ans = window.prompt('Are you okay?'); // prompt
+if (ans === '1') {
+    console.log('You said 1');
+} else if (ans === '2') {
+    console.log('you said 2');
+} else {
+    console.log('you said else');
+}
+
+var ans = window.prompt('Are you okay?'); // prompt
+switch(ans) {
+    case '1':
+        console.log('you said 1');
+        break;
+    case '2':
+        console.log('you said 2');
+        break;
+    default:
+        console.log('you said else');
+        break;
+}
+
+var animal = 'dog';
+animal === 'cat' ? console.log('yes') : console.log('no'); // same is if else
+
+var job = ((animal === 'cat') ? 'yes' : 'no'); // answer is 'no'
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+/*loop*/
+for (var i = 0; i < 10; i++) {
+    console.log(i);
+}
+
+for (var i = 0; i < 10; i++) {
+    if (i === 5) {
+        break; 
+    } else {
+        console.log(i);
+    }
+}
+
+var weekdays = ["Mon", "Tue", "Wed", "Thur", 5, 6, true];
+for (var p in weekdays) {
+    console.log(p, weekdays[p]); // p is [0, 1, 2, ...]
+}
+
+// objects will be display in properties
+
+var x = 0;
+while (x < 10) {
+    console.log(x);
+    x+=3;
+}
+
+// do ... while ... similar to JAVA
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+/*Function*/
+function speak() {
+    console.log('AA');
+    console.log('BB');
+}
+speak();
+
+function fuddify(speech) {
+    if (typeof speech !== "string") {
+        console.error("Nice try, wabbit!");
+        return;
+    }
+    speech = speech.replace(/r/g, "w"); // don't use replace("r", "w") is single replace
+    speech = speech.replace(/R/g, "W");
+    return speech;
+}
+fuddify('rrrdsafRRR'); // "wwwdsafWWW"
+
+function sum() {
+    var total = 0;
+    for (var i = 0; i < arguments.length; i ++) {
+        var number = arguments[i];
+        if (typeof number === "number") {
+            total += number;
+        }
+    }
+    return total;
+}
+sum(1, 2, 3);
+sum(1, 'a', 4, 'u');
+
+
+// Two same functions
+function speakSomething(what) {
+    what = what || "Speaking!";
+    console.log(what);
+}
+var speakSomething = function(what) {
+    what = what || "Speaking!";
+    console.log(what);
+}
+
+
+// callback function
+function doubleIt(number) {
+    return (number *= 2);
+}
+doubleIt = number => (number *= 2); // same function
+
+var myNum = [1, 2, 3, 4, 5];
+myNum.map(doubleIt);
+
+myNum.forEach(function(x) {
+    console.log(x);
+}); // 1, 2, 3, 4, 5
+
+
+  var x = document.getElementById("myBtn").textContent;
+  document.getElementById("demo").innerHTML = x + " - " + x;  
+

@@ -1,0 +1,28 @@
+Vaccine/antigen,Milestone age,Indigenous (%) ,Non-Indigenous (%)
+DTP (diphtheria/tetanus/whooping cough),1 year old(a),92.3,94.9
+DTP (diphtheria/tetanus/whooping cough),2 year olds(b),96.9,96.4
+DTP (diphtheria/tetanus/whooping cough),5 year olds(c),96.1,93.7
+Polio,1 year old(a),92.3,94.8
+Polio,2 year olds(b),96.8,96.2
+Polio,5 year olds(c),96.1,93.7
+Hib,1 year old(a),92.2,94.6
+Hib,2 year olds(b),95.8,94.7
+Hib,5 year olds(c),. .,. .
+Hepatitis B,1 year old(a),92.2,94.4
+Hepatitis B,2 year olds(b),96.8,95.7
+Hepatitis B,5 year olds(c),. .,. .
+MMR (measles/mumps/rubella),1 year old(a),. .,. .
+MMR (measles/mumps/rubella),2 year olds(b),92.1,93.1
+MMR (measles/mumps/rubella),5 year olds(c),96.5,94
+Chickenpox (varicella),1 year old(a),. .,. .
+Chickenpox (varicella),2 year olds(b),91.2,92.8
+Chickenpox (varicella),5 year olds(c),. .,. .
+Meningococcal C,1 year old(a),. .,. .
+Meningococcal C,2 year olds(b),96.1,94.9
+Meningococcal C,5 year olds(c),. .,. .
+IPD (invasive pneumococcal disease),1 year old(a),92.3,94.2
+IPD (invasive pneumococcal disease),2 year olds(b),. .,. .
+IPD (invasive pneumococcal disease),5 year olds(c),. .,. .
+Rotavirus,1 year old(a),78.3,87.2
+Rotavirus,2 year olds(b),. .,. .
+Rotavirus,5 year olds(c),. .,. .
